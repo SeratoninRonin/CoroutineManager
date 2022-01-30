@@ -13,10 +13,10 @@ config_version=4
 config/name="CoroutineManager"
 config/icon="res://icon.png"
 
+[autoload]
+
+CoroutineManager="*res://addons/CoroutineManager/CoroutineManager.tscn"
+
 [physics]
 
 common/enable_pause_aware_picking=true
-
-[rendering]
-
-environment/default_environment="res://default_env.tres"
