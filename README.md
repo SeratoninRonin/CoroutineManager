@@ -33,7 +33,7 @@ public IEnumerator MyCoroutine()
     for(int i=0;i<10000;i++)
     {
       if(search[i]==result)
-        break;
+        yield return CoroutineManager.StartCoroutine(ProcessResult());
       else
         yield return null;
     }
