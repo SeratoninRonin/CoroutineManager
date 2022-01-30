@@ -1,6 +1,8 @@
 # CoroutineManager
 
-Unity-style coroutines in Godot C#
+Coroutines are implemented in GDScript, and the onsignals can be done in C# using async/await, but for those of us who like C#/Unity style coroutines, I present:
+
+Unity-style coroutines in Godot C#!
 
 The CoroutineManager lets you pass in an IEnumerator which is then ticked each frame allowing you to break long running tasks up into smaller bits. The entry point for starting a coroutine is CoroutineManager.StartCoroutine which returns an ICoroutine object with a single method: Stop. The execution of a coroutine can be paused at any point using the yield statement. 
 
