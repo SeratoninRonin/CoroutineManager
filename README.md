@@ -45,6 +45,10 @@ public override void __Ready()
 }
 ```
 
+# Acknowledgements/Attribution
+
+This was adapted from the excellent Nez framework for MonoGame: https://github.com/prime31/Nez
+
 # License
 
 This project is MIT licensed and provided as-is.
