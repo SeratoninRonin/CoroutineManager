@@ -11,6 +11,8 @@ Coroutines can yield a few different ways:
 
 # Usage
 
+The /addons/CoroutineManager folder should be copied into your own project's /addons folder
+
 The CoroutineManager.tscn file should be added to your Project Settings -> AutoLoad as a global, like so:
 
 ![CMload](https://user-images.githubusercontent.com/61599196/151710358-1330b879-31dc-4814-a1c7-6350bc1568b9.png)
