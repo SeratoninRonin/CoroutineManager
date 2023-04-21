@@ -32,7 +32,7 @@ public static class Pool<T> where T : new()
     /// <param name="cacheCount">Cache count.</param>
     public static void TrimCache(int cacheCount)
     {
-        while (cacheCount > _objectQueue.Count)
+        while (cacheCount < _objectQueue.Count)
         {
             _objectQueue.Dequeue();
         }
